@@ -24,7 +24,7 @@ import de.sesu8642.feudaltactics.renderer.MapRenderer;
 @Singleton
 public class MainMenuStage extends MenuStage {
 
-	private static final List<String> BUTTON_TEXTS = ImmutableList.of("Play", "Tutorial", "Preferences", "Information");
+	private static final List<String> BUTTON_TEXTS = ImmutableList.of("Play", "Tutorial", "Preferences", "Information","Statistics");
 
 	@Inject
 	public MainMenuStage(EventBus eventBus, @MenuViewport Viewport viewport,
