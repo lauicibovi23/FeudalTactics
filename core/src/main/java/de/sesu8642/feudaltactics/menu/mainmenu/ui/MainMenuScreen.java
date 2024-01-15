@@ -83,6 +83,9 @@ public class MainMenuScreen extends GameScreen {
 		// information button
 		buttons.get(3).addListener(new ExceptionLoggingChangeListener(
 				() -> eventBus.post(new ScreenTransitionTriggerEvent(ScreenTransitionTarget.INFORMATION_MENU_SCREEN))));
+		//statistics button
+		buttons.get(4).addListener(new ExceptionLoggingChangeListener(
+				() -> eventBus.post(new ScreenTransitionTriggerEvent(ScreenTransitionTarget.STATISTICS_GAME_SCREEN))));
 	}
 
 	@Override
